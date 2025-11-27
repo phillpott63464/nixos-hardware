@@ -37,7 +37,7 @@ let
     owner = "pythonpoet";
     repo = "linux-surface";
     rev = "326736b5c155733a225c3be73ed7b6232cf5dbd0";
-    hash = "sha256-1pjyimdqp8ay3ag8cm60fm4a53pn4ww91d6ix4gdc70ij152h0m1";
+    hash = "0000000000000000000000000000000000000000000000000000";
   };
 
   # Fetch and build the kernel
