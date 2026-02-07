@@ -56,7 +56,11 @@ let
     sha256 = srcHash;
     ignoreConfigErrors = true;
     preferLocalBuild = true;
+<<<<<<< HEAD
   }; // { meta = { remoteBuild = false; }; };
+=======
+  };
+>>>>>>> ff5445ca404e425356768ddf874788b44c291147
 
 in
 {
