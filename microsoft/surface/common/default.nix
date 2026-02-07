@@ -56,7 +56,8 @@ let
     sha256 = srcHash;
     ignoreConfigErrors = true;
     preferLocalBuild = true;
-  }; // { meta = { remoteBuild = false; }; };
+    remoteBuild = false;
+  };
 
 in
 {
