@@ -55,6 +55,7 @@ let
     version = srcVersion;
     sha256 = srcHash;
     ignoreConfigErrors = true;
+    preferLocalBuild = true;
   };
 
 in
