@@ -34,10 +34,10 @@ let
 
   # Fetch the latest linux-surface patches
   linux-surface = pkgs.fetchFromGitHub {
-    "owner": "pythonpoet",
-    "repo": "linux-surface",
-    "rev": "326736b5c155733a225c3be73ed7b6232cf5dbd0",
-    "hash": "sha256-oQIoSpARHNYe6dG0kDgn9o6iSHXAVIaeGl6hi1uNXt4="
+    "owner" = "pythonpoet",
+    "repo" = "linux-surface",
+    "rev" = "326736b5c155733a225c3be73ed7b6232cf5dbd0",
+    "hash" = "sha256-oQIoSpARHNYe6dG0kDgn9o6iSHXAVIaeGl6hi1uNXt4="
   };
 
   # Fetch and build the kernel
